@@ -1,0 +1,74 @@
+div {
+	margin: 40px;
+
+}
+
+/*CENTER STATIC, BLOCK LEVEL ELEMENTS WITH A FIXED WIDTH*/
+.box {
+	height: 300px;
+	width: 300px;
+	background-color: gray;
+
+}
+
+/*CENTER ABSOLUTELY POSITIONED ELEMENT*/
+.container {
+	height: 300px;
+	width: 300px;
+
+	background-color: gray;
+}
+
+
+.absolute-box {
+	height: 100px;
+	width: 100px;
+	background-color: black;
+
+
+}
+
+/*CENTER WITH FLUID WIDTH*/
+
+.fluid-container {
+	height: 300px;
+	width: 22.5%;
+	background-color: gray;
+
+}
+
+.fluid-box {
+	height: 100px;
+	width: 50%;
+	background-color: black;
+
+}
+
+/*DEAD CENTER AN ELEMENT*/
+
+.dead-center-container {
+	height: 300px;
+	width: 300px;
+	background: gray;
+
+}
+
+.dead-center-box {
+	height: 100px;
+	width: 100px;
+	background: black;
+
+}
+
+
+/*HORIZONTALLY AND VERTICALLY ALIGN SINGLE LINE OF TEXT*/
+.text-container {
+	height: 300px;
+	width: 300px;
+	background: gray;
+}
+
+.text-container h1 {
+	
+}
+
