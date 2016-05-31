@@ -1,0 +1,81 @@
+div {
+	margin: 40px;
+
+}
+
+/*CENTER STATIC, BLOCK LEVEL ELEMENTS WITH A FIXED WIDTH*/
+.box {
+	height: 300px;
+	width: 300px;
+	background-color: gray;
+	margin: 0 auto;
+}
+
+/*CENTER ABSOLUTELY POSITIONED ELEMENT*/
+.container {
+	height: 300px;
+	width: 300px;
+	position: relative;
+	background-color: gray;
+}
+
+
+.absolute-box {
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	position: absolute;
+	margin: 0 auto; /*will not work on absolute positioning*/
+	left: 100px; /*((parent width - child width) / 2) = 100*/
+}
+
+/*CENTER WITH FLUID WIDTH*/
+
+.fluid-container {
+	height: 300px;
+	width: 22.5%;
+	background-color: gray;
+	position: relative;
+}
+
+.fluid-box {
+	height: 100px;
+	width: 50%;
+	background-color: black;
+	position: absolute;
+	margin: 0px 0 0 -25%; /*apply negative left margin of width/2 */
+	left: 50%;
+}
+
+/*DEAD CENTER AN ELEMENT*/
+
+.dead-center-container {
+	height: 300px;
+	width: 300px;
+	background: gray;
+	position: relative;
+}
+
+.dead-center-box {
+	height: 100px;
+	width: 100px;
+	background: black;
+	position: absolute;
+	margin: -50px 0 0 -50px;
+	left: 50%;
+	top: 50%;
+}
+
+
+/*HORIZONTALLY AND VERTICALLY ALIGN SINGLE LINE OF TEXT*/
+.text-container {
+	height: 300px;
+	width: 300px;
+	background: gray;
+}
+
+.text-container h1 {
+	text-align: center;
+	line-height: 300px; /*only works with single line of text*/
+}
+
